@@ -5,6 +5,8 @@ sudo apt update
 sudo apt install nginx
 ```
 
+![1](/Imagenes/1.PNG)
+
 ## Ajustar el firewall
 
 Necesitamos permitir el acceso a nginx previamente. Este se registra de manera automática como un servicio con ***ufw***, para ello necesitamos ver la lista de configuraciones de la aplicación para ver su compatibilidad.
