@@ -10,6 +10,7 @@ sudo apt install nginx
 Necesitamos permitir el acceso a nginx previamente. Este se registra de manera automática como un servicio con ***ufw**, para ello necesitamos ver la lista de configuraciones de la aplicación para ver su compatibilidad.
 
 ```
+sudo apt install ufw
 sudo ufw app list
 sudo ufw allow 'Nginx HTTP'
 sudo ufw delete allow 'Nginx Full'
