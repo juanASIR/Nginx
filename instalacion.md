@@ -30,6 +30,35 @@ En nuestro caso, habilitaremos el perfil mas restrictivo, solo necesitamos el tr
 
 ![3](/Imagenes/3.PNG)
 
+## Ajustes en NGINX
+
+```
+# Estado Nginx
+systemctl status nginx
+
+# Iniciar Nginx
+sudo systemctl start nginx
+
+# Detener Nginx
+sudo systemctl stop nginx
+
+# Reiniciar Nginx
+sudo systemctl restart nginx
+
+# Recargar Configuración
+sudo systemctl reload nginx
+
+# Verificar Configuración
+sudo nginx -t
+
+# Habilitar al Inicio
+sudo systemctl enable nginx
+
+# Deshabilitar al Inicio
+sudo systemctl disable nginx
+```
+
+
 
 
 
