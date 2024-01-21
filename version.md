@@ -5,5 +5,5 @@ sudo apt policy nginx
 sudo nginx -v
 ```
 
-[1](/Imagenes/1.PNG)
+![1](/Imagenes/1.PNG)
 
