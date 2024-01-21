@@ -15,5 +15,5 @@ Descripciones básicas Nginx en Debian12
 * ## **Referencias**
     * marketersgroup
     * kinsta
-    * [GITHUB](https://github.com/camposchaconjosemaria)
+    * [GitHub camposchaconjosemaria](https://github.com/camposchaconjosemaria)
 
