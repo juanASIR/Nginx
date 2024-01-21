@@ -17,3 +17,11 @@ Nginx sigue un enfoque que se basa en eventos asíncronos que sirven para poder 
 ## Procesamiento de contenido dinámico
 
 Apache procesa contenido dinámico de forma nativa dentro del propio servidor web, algo que Nginx carece porque no tiene la capacidad de hacerlo internamente. Nginx depende de procesos que sólo se pueden ejecutar externamente.
+
+## Graficos comparativos
+
+![estadisticas](https://kinsta.com/es/wp-content/uploads/sites/8/2019/06/porcentaje-sitios-web-usando-nginx.jpg)
+
+![estadisticas2](https://kinsta.com/es/wp-content/uploads/sites/8/2019/06/uso-servidor-web.png)
+
+![estadisticas3](https://kinsta.com/es/wp-content/uploads/sites/8/2019/06/impacto-desempeno-nginx-apache-png.png)
