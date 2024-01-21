@@ -7,3 +7,4 @@ sudo nginx -v
 
 ![1](/Imagenes/1.PNG)
 
+![4](/Imagenes/4.PNG)
