@@ -14,4 +14,5 @@ Descripciones básicas Nginx en Debian12
     4. ### [Virtual Hosting](virtual.md)
 * ## **Referencias**
     * marketersgroup
+    * kinsta
 
