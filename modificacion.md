@@ -33,10 +33,12 @@ cp /etc/nginx/sites-available/default /etc/nginx/sites-available/nueva_pagina.ht
 
 server {
     listen 80;
-    server_name tunombre.com www.tunombre.com;
+    listen [::]:80;
 
-    root /var/www/mi_sitio;
+    root /var/www/nueva_pagina;
     index index.html;
+
+   server_name www.nueva_pagina.com
 
     location / {
         try_files $uri $uri/ =404;
