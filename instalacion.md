@@ -1,7 +1,9 @@
 ## Instalación NGINX
+
 ´´´
 sudo apt update
 sudo apt install nginx
+
 ´´´
 
 ## Ajustar el firewall
@@ -14,6 +16,7 @@ sudo ufw allow 'Nginx HTTP'
 sudo ufw delete allow 'Nginx Full'
 sudo ufw delete allow 'Nginx HTTPS'
 sudo ufw status
+
 ´´´
 
 En nuestro caso, habilitaremos el perfil mas restrictivo, solo necesitamos el tráfico en el puerto 80.
