@@ -16,21 +16,9 @@ sudo nano /var/www/nueva_pagina/index.html
 ![8](/Imagenes/8.PNG)
 
 
-## 2. Desactivar web por defecto de la carpeta donde se habilitan las páginas web, sites-enabled
+## 2. Modificamos el default de /etc/nginx/sites-available, asignandole los siguientes parámetros.
 
 ```
-/etc/nginx/sites-enabled$ ls
-default
-
-/etc/nginx/sites-enabled$ rm default
-```
-![6](/Imagenes/6.PNG)
-
-## 3. Copiamos la web por defecto en la carpeta donde se muestan disponibles, sites-available. Y activamos la ruta de nuestro nuevo directorio y su respectivo archivo .html
-
-```
-cp /etc/nginx/sites-available/default /etc/nginx/sites-available/nueva_pagina.html
-
 server {
     listen 80;
     listen [::]:80;
@@ -47,9 +35,11 @@ server {
 
 ```
 
-## 4. Creamos un nuevo enlace simbólico en sites-enabled, y reiniciamos nginx.
+## 3. EXTRA! Creamos un nuevo enlace simbólico en sites-enabled, y reiniciamos nginx.
 
 Al crear un enlace simbólico en sites-enabled que apunta al archivo de configuración de tu sitio en el directorio sites-available, estás efectivamente habilitando esa configuración.
+
+Esto serviría si quiero poner una nueva página web, para que haga como espejo. En este caso, como hemos tocado solamente el default, y este por defecto vienen en ambos sites no haría falta.
 
 
 ```
