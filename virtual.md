@@ -1,17 +1,18 @@
 ## 1. Creamos y preparamos dos nuevas MV
 
-   Con esta MV balancearemos la carga entre ambos servidores. Solo instalaremos nginx y modificaremos el fichero que viene en /var/www/html , para mostrar ese balanceo de carga
+   Con esta MV balancearemos la carga entre ambos servidores. Solo instalaremos nginx y modificaremos el fichero que viene en /var/www/html (En las dos nuevas MV) , para mostrar ese balanceo de carga.
 
 ```
 sudo apt update
 sudo apt install nginx
+nano /var/www/html/index.nginx-debian.html
  ```
 
 ## 2. Configuración del servidor primario, y reinicio nginx
 
    * Modificación fichero /etc/nginx/nginx.conf
 
-     Hay que tener cuidado con los {}
+     Hay que tener cuidado con los {}, y poner en server secundario las ip de las dos MV.
 
 ```
      http {
