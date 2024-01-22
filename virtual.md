@@ -45,4 +45,5 @@ systemctl restart nginx
 
 ## 3. Comprobación
 
-Utilizaremos el htop.
+En el navegador pondremos el nuevo nombre del dominio, y refrescaremos muchas veces (Sobrecarga de tráfico), y en algún momento nos saldrá la web del servidor secundario.
+
