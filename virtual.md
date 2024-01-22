@@ -1,6 +1,6 @@
-## 1. Creamos y preparamos una nueva MV
+## 1. Creamos y preparamos dos nuevas MV
 
-   Con esta MV balancearemos la carga entre ambos servidores.
+   Con esta MV balancearemos la carga entre ambos servidores. Solo instalaremos nginx y modificaremos el fichero que viene en /var/www/html , para mostrar ese balanceo de carga
 
 ```
 sudo apt update
