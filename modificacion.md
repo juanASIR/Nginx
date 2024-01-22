@@ -35,6 +35,8 @@ server {
 
 ```
 
+![9](/Imagenes/9.PNG)
+
 ## 3. EXTRA! Creamos un nuevo enlace simbólico en sites-enabled, y reiniciamos nginx.
 
 Al crear un enlace simbólico en sites-enabled que apunta al archivo de configuración de tu sitio en el directorio sites-available, estás efectivamente habilitando esa configuración.
