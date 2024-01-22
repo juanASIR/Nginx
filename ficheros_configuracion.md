@@ -1,8 +1,8 @@
 ## Directorios claves
 
   * Contenido Web:
-
-    ***/var/www/html***: Contiene el contenido web real. Por defecto, presenta la página predeterminada de Nginx. Puedes modificarlo ajustando los archivos de configuración de Nginx.
+    
+***/var/www/html***: Contiene el contenido web real. Por defecto, presenta la página predeterminada de Nginx. Puedes modificarlo ajustando los archivos de configuración de Nginx.
 
   * Configuración del Servidor:
 
