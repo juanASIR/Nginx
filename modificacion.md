@@ -18,6 +18,8 @@ sudo nano /var/www/nueva_pagina/index.html
 
 ## 2. Modificamos el default de /etc/nginx/sites-available, asignandole los siguientes parámetros.
 
+Simplemente modificamos el archivo default (Esto no es tan seguro, pues ese archivo es mejor no tocarlo, pero en este caso vamos a hacerlo asi) y ponemos los datos con la nueva pagina creada. Asignamos la nueva ruta, y ponemos en server_name el *dominio obtenido de la web [no_ip](https://www.noip.com/es-MX)* . En esta plataforma de obtención de dominios, crearemos uno, con la ip de de la MV que tenga el servidor primario.
+
 ```
 server {
     listen 80;
@@ -26,7 +28,7 @@ server {
     root /var/www/nueva_pagina;
     index index.html;
 
-   server_name www.nueva_pagina.com
+   server_name Dominio de no_ip
 
     location / {
         try_files $uri $uri/ =404;
