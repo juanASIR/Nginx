@@ -43,7 +43,15 @@ nano /var/www/html/index.nginx-debian.html
 systemctl restart nginx
 ```
 
+![13](/Imagenes/13.PNG)
+
 ## 3. Comprobación
 
-En el navegador pondremos el nuevo nombre del dominio, y refrescaremos muchas veces (Sobrecarga de tráfico), y en algún momento nos saldrá la web del servidor secundario.
+En el navegador de nuestro servidor primario pondremos el nuevo nombre del dominio, y refrescaremos muchas veces (Sobrecarga de tráfico), y en algún momento nos saldrá la web del servidor secundario.
+
+![14](/Imagenes/14.PNG)
+
+![15](/Imagenes/15.PNG)
+
+
 
