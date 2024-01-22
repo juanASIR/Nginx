@@ -38,4 +38,4 @@ sudo apt install nginx
 systemctl restart nginx
 ```
 
-## 3. 
+## 3. Comprobación
