@@ -16,4 +16,5 @@ Descripciones básicas Nginx en Debian12
     * marketersgroup
     * kinsta
     * [GitHub camposchaconjosemaria](https://github.com/camposchaconjosemaria)
+    * [no_ip](https://www.noip.com/es-MX)
 
