@@ -34,9 +34,9 @@ server {
 
 ```
 
-![10](/Imagenes/10.PNG)
-
 ![11](/Imagenes/11.PNG)
+
+![12](/Imagenes/12.PNG)
 
 
 ## 3. EXTRA! Creamos un nuevo enlace simbólico en sites-enabled, y reiniciamos nginx.
