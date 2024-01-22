@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install nginx
  ```
 
-## 2. Configuración del servidor primario.
+## 2. Configuración del servidor primario, y reinicio nginx
 
    * Modificación fichero /etc/nginx/nginx.conf
 
@@ -34,4 +34,8 @@ sudo apt install nginx
         }
     }
 }
-``
+
+systemctl restart nginx
+```
+
+## 3. 
