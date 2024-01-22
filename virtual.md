@@ -8,6 +8,8 @@ sudo apt install nginx
 nano /var/www/html/index.nginx-debian.html
  ```
 
+![10](/Imagenes/10.PNG)
+
 ## 2. Configuración del servidor primario, y reinicio nginx
 
    * Modificación fichero /etc/nginx/nginx.conf
