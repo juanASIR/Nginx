@@ -14,7 +14,7 @@ nano /var/www/html/index.nginx-debian.html
 
      Hay que tener cuidado con los {}, y poner en server secundario las ip de las dos MV.
 
-     **IMPORTANTE !** En el server_name pondremos el dominio que nos bajaremos de la web no_ip. Este dominio nos permitirá hacer dicho balanceo de carga.
+     **IMPORTANTE !** En el server_name pondremos el dominio que nos bajaremos de la web no_ip. Al crear este nuevo dominio, se nos pide una ip, esta será la ip del servidor primario. Sin este dominio no podremos hacer dicho balanceo de carga.
 
 ```
      http {
