@@ -15,7 +15,7 @@
     ***/etc/nginx/sites-enabled/***: Directorio que almacena los bloques de servidor habilitados por sitio. Se crean mediante vínculos con archivos de configuración en sites-available.
     ***/etc/nginx/snippets***: Contiene fragmentos de configuración que pueden incluirse en otras partes de la configuración de Nginx.
 
-  * Registros del Servidor:
+  * Registros .log:
 
     ***/var/log/nginx/access.log***: Registra cada solicitud al servidor web.
     ***/var/log/nginx/error.log***: Almacena errores de Nginx.
