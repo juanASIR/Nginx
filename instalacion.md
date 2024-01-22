@@ -22,7 +22,7 @@ sudo ufw status
 
 ![2](/Imagenes/2.PNG)
 
-En nuestro caso, habilitaremos el perfil mas restrictivo, solo necesitamos el tráfico en el puerto 80.
+En nuestro caso, habilitaremos el perfil mas restrictivo, solo necesitamos el tráfico en el puerto 80. También al terminar de poner las reglas, hay que activar ufw con *ufw enable*.
 
 * Nginx HTTP: Abre unicamente el puerto 80 (Tráfico no cifrado)
 * Nginx Full: Abre puerto 80 y el 443 (Tráfico TLS/SSL cifrado)
