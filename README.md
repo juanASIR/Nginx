@@ -10,7 +10,7 @@ Descripciones básicas Nginx en Debian12
 * ## **Casos prácticos**
     1. ### [Versión Nginx Instalado](version.md)
     2. ### [Ficheros de configuración](ficheros_configuracion.md)
-    3. ### [Modificación página web por defecto](modificación.md)
+    3. ### [Modificación página web por defecto](modificacion.md)
     4. ### [Virtual Hosting](virtual.md)
 * ## **Referencias**
     * marketersgroup
