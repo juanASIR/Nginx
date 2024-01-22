@@ -39,3 +39,5 @@ systemctl restart nginx
 ```
 
 ## 3. Comprobación
+
+Utilizaremos el htop.
